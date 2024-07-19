@@ -1,0 +1,9 @@
+.items {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.items button {
+  padding: 5px;
+}

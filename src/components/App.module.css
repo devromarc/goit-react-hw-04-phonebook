@@ -1,0 +1,29 @@
+.container {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: center;
+  border: 1px solid;
+  padding: 20px;
+  border-radius: 5px;
+
+  background: #e7d4b5;
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+}
+
+.containerContacts {
+  composes: container;
+  width: 500px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 45px;
+}
